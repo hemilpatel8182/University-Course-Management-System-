@@ -1,53 +1,57 @@
-# University-Course-Management-System
-University Course Management System by Hemil and Maan
+# University-Course-Management-System  
+**University Course Management System by Hemil and Maan**  
 
-Overview
-The Course Management System is a comprehensive platform designed to streamline university course administration. It provides tools for managing professors, courses, and students while integrating functionalities for viewing and organizing course-related data. This project is implemented in Python and utilizes SQLite for efficient database operations.
+## Overview  
+The Course Management System is a comprehensive platform designed to streamline university course administration. It provides tools for managing professors, courses, and students while integrating functionalities for viewing and organizing course-related data. This project is implemented in **Python** and utilizes **SQLite** for efficient database operations.  
 
-Features
-Database Management:
-Create and manage an SQLite database (course_management_system.db).
-Insert sample data for professors, courses, and students.
+## Features  
 
-Course Management:
-View all available courses.
-Fetch detailed course information.
-Student and Professor Management:
-Manage professor and student records.
+### Database Management  
+- **Create and manage** an SQLite database (`course_management_system.db`).  
+- **Insert sample data** for professors, courses, and students.  
 
-Query Tools:
-Retrieve course lists, schedules, and professor details.
+### Course Management  
+- **View all available courses**  
+- **Fetch detailed course information**  
 
-Scalable Design:
-Designed to extend features like student enrollment and grade tracking.
+### Student and Professor Management  
+- **Manage professor and student records**  
 
-Architecture
-The project follows a modular structure with clear separation of concerns:
-Database Management: Handles database creation and storage using SQLite.
-Data Insertion: Predefined sample data for testing and demonstration.
-Course Query System: Retrieve course-related data using SQL queries.
-Student/Professor Management: Fetch and display academic user details.
+### Query Tools  
+- **Retrieve course lists, schedules, and professor details**  
 
-Collaborators
-Hemil Patel:
-Maan Patel: 
+### Scalable Design  
+- **Designed to extend features** like student enrollment and grade tracking.  
 
-Tech Stack
-Back-End
-Python: Primary programming language.
-SQLite: Lightweight database solution for data storage.
+## Architecture  
+The project follows a **modular structure** with clear separation of concerns:  
 
-APIs and Tools
-SQL Queries: Used for database management and data retrieval.
-Datetime: For handling date-based data.
+- **Database Management**: Handles database creation and storage using SQLite.  
+- **Data Insertion**: Predefined sample data for testing and demonstration.  
+- **Course Query System**: Retrieve course-related data using SQL queries.  
+- **Student/Professor Management**: Fetch and display academic user details.  
 
-How to Run
-Open the provided Jupyter Notebook (Final_Project_CSIT_355.ipynb) in Jupyter Lab or any compatible IDE.
-Run the cells in sequential order:
-Step 1: Create the database.
-Step 2: Insert sample data for professors, courses, and students.
-Step 3: Query the database to fetch course and professor details.
-Verify the SQLite database (course_management_system.db) is created successfully.
+## Collaborators  
+- **Hemil Patel**  : https://github.com/hemilpatel8182
+- **Maan Patel**   : https://github.com/maan1patel
 
-Collaboration Tools
-GitHub: Version control and project hosting.
+## Tech Stack  
+
+### Back-End  
+- **Python**: Primary programming language.  
+- **SQLite**: Lightweight database solution for data storage.  
+
+### APIs and Tools  
+- **SQL Queries**: Used for database management and data retrieval.  
+- **Datetime**: For handling date-based data.  
+
+## How to Run  
+1. Open the provided Jupyter Notebook (`University Course Management System.ipynb`) in **Jupyter Lab** or any compatible IDE.  
+2. Run the cells in sequential order:  
+   - **Step 1**: Create the database.  
+   - **Step 2**: Insert sample data for professors, courses, and students.  
+   - **Step 3**: Query the database to fetch course and professor details.  
+3. Verify the SQLite database (`course_management_system.db`) is created successfully.  
+
+## Collaboration Tools  
+- **GitHub**: Version control and project hosting.  
